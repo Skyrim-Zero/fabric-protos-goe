@@ -73,7 +73,6 @@ func (m *StateMetadata) GetFields() []string {
 // StateData encodes a particular field of a datatype
 type StateData struct {
 	// Types that are valid to be assigned to Type:
-	//
 	//	*StateData_Int64
 	//	*StateData_Bytes
 	//	*StateData_String_
